@@ -1,4 +1,3 @@
-package TicTacGame;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -52,8 +51,8 @@ public class TicTacToeFrame extends JFrame{
 		 * 
 		 */
 		private static final long serialVersionUID = 5200264792702882279L;
-		private static final String AIimgPath = "src/TicTacGame/imgs/o.png";
-    	private static final String pImgPath = "src/TicTacGame/imgs/x.png";
+		private static final String AIimgPath = "imgs/o.png";
+    	private static final String pImgPath = "imgs/x.png";
     	private int x, y;	//button coordinates
     	
     	private TicTacButton(){
